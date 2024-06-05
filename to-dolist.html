@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>to-do list</title>
+    <link rel="stylesheet" href="to-dolist.css">
+</head>
+<body>
+    <div class="container">
+        <div class="todo-app">
+            <h2>To-Do list<img src="To-Do-Img\images\icon.png"></h2>
+            <input class="addbut" id="text" type="text" placeholder="Add your text"><button onclick="add()">ADD</button>
+            <ul id="list" >
+                <li class="listitems" ><button class="deletebut" onclick="del(event)">delete</button></li>
+            </ul>
+        </div>
+    </div>
+    <script src="to-dolist.js"></script>
+    
+</body>
+</html>
